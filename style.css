@@ -20,7 +20,6 @@ body {
     left: 0%;
     width: 100%;
     filter: brightness(0.7);
-    animation: slowRotate 650s linear infinite;
 }
 
 #main {
@@ -644,12 +643,3 @@ input:focus {
         transform: translateY(-275px);
     }
 }
-
-@keyframes slowRotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
